@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- DEMO de venta, no el sitio oficial del local. Lleva nombre, reseñas y
+     horario reales, por eso va con noindex. Se quita si el local contrata. -->
+<meta name="robots" content="noindex, nofollow">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DU BLÉ · Amasandería y pastelería en San Bernardo</title>
+<meta name="description" content="DU BLÉ — amasandería y pastelería en Los Canelos 759, San Bernardo. 4.6★ con 218 opiniones en Google. Pastelería, café y despacho a domicilio.">
+
+<!--
+  ============================================================
+  DEMO — DU BLÉ (Los Canelos 759, San Bernardo)
+
+  ✅ DATOS REALES VERIFICADOS (10-09-2026)
+  - Google Maps: 4.6★, 218 opiniones, Pastelería.
+  - Dirección: Los Canelos 759, 8050000 San Bernardo.
+  - Teléfono publicado en Google: (2) 2841 2177.
+  - Place ID real: 0x9662d91939fdf283:0xcc925a0bb2d70a48
+  - Coordenadas: -33.6185601, -70.6890353
+  - Cierra a las 20:30 (confirmado por Google).
+  - Servicios: consumo en el lugar, para llevar y entrega a domicilio.
+  - Instagram real: @dublepasteleriachile (687 seguidores), donde se describen como
+  -   'AMASANDERÍA Y PASTELERÍA'.
+  - Producto destacado por su propia ficha: cheesecake de frutos rojos.
+  - 2 reseñas reales con nombre.
+  - Fotos: fotos propias del local publicadas en su ficha de Google.
+  - GANCHO DE VENTA VERIFICADO: la dirección web que figura asociada al negocio
+  -   (dulce-deleite-pan.negocio.site) es una página automática de Google ya
+  -   descontinuada y responde 404. Cualquiera que la busque no encuentra nada.
+
+  ⚠️ PENDIENTE / NUNCA INVENTADO:
+  - PRECIOS: no publican carta. Los productos van sin precio y el carrito
+  -   muestra 'A consultar'. Pedirle la carta al local.
+  - HORA DE APERTURA: Google solo confirma el cierre (20:30).
+  - WHATSAPP: el teléfono publicado es fijo, así que la página usa tel:.
+  -   Preguntar si tienen un móvil con WhatsApp.
+  - Solo 2 reseñas utilizables: la tercera visible era negativa (cafetera
+  -   descompuesta en tres visitas). No se usa en la demo, pero conviene que el
+  -   dueño la conozca.
+  - Falta el logo real en buena resolución.
+  ============================================================
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Onest:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="loader">
+  <div class="loader-marca" aria-hidden="true">
+    <svg viewBox="0 0 64 64" width="48" height="48"><path d="M8 40c0-14 10-24 24-24s24 10 24 24z" fill="currentColor"/><path d="M8 40h48v7H8z" fill="currentColor" opacity=".55"/></svg>
+  </div>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <button class="brand" data-tab="inicio">
+      <span class="brand-ico" aria-hidden="true">
+        <svg viewBox="0 0 64 64" width="22" height="22"><path d="M8 40c0-14 10-24 24-24s24 10 24 24z" fill="currentColor"/><path d="M8 40h48v7H8z" fill="currentColor" opacity=".55"/></svg>
+      </span>
+      <span class="brand-name">Du Blé</span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+      <button class="nav-link active" data-tab="inicio">Inicio</button>
+      <button class="nav-link" data-tab="nosotros">Nosotros</button>
+      <button class="nav-link" data-tab="carta">Carta</button>
+      <button class="nav-link" data-tab="resenas">Reseñas</button>
+      <button class="nav-link" data-tab="visitanos">Visítanos</button>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-solid btn-sm" href="tel:+56228412177">Llamar</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ================= INICIO ================= -->
+<section class="tab-panel active" data-tab-panel="inicio">
+  <div class="hero">
+    <div class="hero-photo">
+      <img src="fotos/terraza.jpg" alt="Terraza techada de DU BLÉ en San Bernardo, con sus sillas verde agua y amarillas">
+    </div>
+    <div class="hero-scrim"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow reveal">Amasandería y pastelería · San Bernardo</p>
+      <h1 class="reveal">Del trigo a la mesa</h1>
+      <p class="hero-lead reveal">Pastelería fina y pan del día en Los Canelos 759, con terraza techada para sentarse a tomar café. Y si prefieres, te lo llevamos.</p>
+
+      <div class="hero-pills reveal">
+        <span class="pill"><span class="status-dot" id="statusDot"></span><span id="statusText">Consultando horario…</span></span>
+        <span class="pill">★ <strong>4.6</strong> · 218 opiniones en Google</span>
+        <span class="pill">🛵 Despacho a domicilio</span>
+      </div>
+
+      <div class="hero-ctas reveal">
+        <button class="btn btn-solid" data-tab="carta">Ver la carta</button>
+        <button class="btn btn-ghost" data-tab="visitanos">Cómo llegar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que hacemos</span>
+        <h2 class="section-title">Amasandería de barrio</h2>
+        
+      </div>
+      <div class="pilares">
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21V8"/><path d="M12 11c0-3 3-5 6-4-1 3-3 5-6 4z"/><path d="M12 16c0-3 3-5 6-4-1 3-3 5-6 4z"/><path d="M12 11c0-3-3-5-6-4 1 3 3 5 6 4z"/><path d="M12 16c0-3-3-5-6-4 1 3 3 5 6 4z"/></svg></div>
+          <h3>Pan y amasandería</h3>
+          <p>"Es nuestra amasandería habitual", dice una de sus reseñas. Pan del día, horneado ahí mismo.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z"/><path d="M4 12c0-3 4-5 8-5s8 2 8 5"/><path d="M12 7V4"/></svg></div>
+          <h3>Pastelería fina</h3>
+          <p>El cheesecake de frutos rojos es el producto que su propia ficha destaca. El pastel panqueque de manjar es el más nombrado en las reseñas.</p>
+        </article>
+        <article class="info-card reveal">
+          <div class="pilar-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="17" r="3"/><circle cx="18" cy="17" r="3"/><path d="M9 17h6l-2-7h-3"/><path d="M13 10l4-2"/></svg></div>
+          <h3>Te lo llevamos</h3>
+          <p>Consumo en el lugar, para llevar y entrega a domicilio — los tres servicios están confirmados en su ficha de Google.</p>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= NOSOTROS ================= -->
+<section class="tab-panel" data-tab-panel="nosotros">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Quiénes somos</span>
+        <h2 class="section-title">Pastelería, pan y café en Los Canelos</h2>
+      </div>
+      <div class="nosotros-grid">
+        <div class="nosotros-text reveal">
+          <p class="lead">
+            DU BLÉ es <strong>amasandería y pastelería</strong> en San Bernardo: pan del día,
+            tortas y pasteles, y una terraza techada con seto verde donde tomarse un café.
+          </p>
+          <p>
+            Con <strong>4.6 estrellas y 218 opiniones</strong>, lo que más repiten quienes la
+            visitan es la variedad de pasteles y lo fresco de los productos. Una reseña lo
+            deja claro: <em>"de los mejores locales del sector, 100% recomendado"</em>.
+          </p>
+          <div class="badges reveal">
+            <span class="badge">4.6★ · 218 opiniones</span>
+            <span class="badge">Consumo en el lugar</span>
+            <span class="badge">Para llevar</span>
+            <span class="badge">Despacho a domicilio</span>
+            <span class="badge">Terraza techada</span>
+          </div>
+          
+        </div>
+        <div class="nosotros-fotos reveal">
+          <figure class="foto-grande">
+            <img src="fotos/vitrina.jpg" alt="Productos de DU BLÉ" loading="lazy">
+            <figcaption>De la vitrina</figcaption>
+          </figure>
+          <figure>
+            <img src="fotos/local1.jpg" alt="Rincón de DU BLÉ" loading="lazy">
+          </figure>
+          <figure>
+            <img src="fotos/local2.jpg" alt="Detalle de DU BLÉ" loading="lazy">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CARTA ================= -->
+<section class="tab-panel" data-tab-panel="carta">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">La carta</span>
+        <h2 class="section-title">Nuestra carta</h2>
+        <p class="section-sub">Arma tu pedido y consúltanos los precios del día. Los productos de esta carta son los que aparecen nombrados en su propia ficha de Google y en sus reseñas reales.</p>
+      </div>
+      <div class="menu-tabs" id="menuTabs" role="tablist" aria-label="Categorías de la carta"></div>
+      <div id="menuPanels"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEÑAS ================= -->
+<section class="tab-panel" data-tab-panel="resenas">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Lo que dicen</span>
+        <h2 class="section-title">4.6 / 5 · 218 opiniones en Google</h2>
+      </div>
+      <div class="resenas-grid">
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"El pastel panqueque manjar de aquí, exquisito. Hay harta variedad de pasteles y el café también es muy rico, y también la atención muy buena. En resumen, de los mejores locales del sector: 100% recomendado."</p>
+          <footer><span class="avatar" aria-hidden="true">KF</span>
+            <span class="review-meta"><strong>Krys Fuentes</strong>hace 2 años</span></footer>
+        </article>
+        <article class="review-card reveal">
+          <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+          <p>"Es nuestra amasandería habitual, tienen muy ricos pasteles y tortas."</p>
+          <footer><span class="avatar" aria-hidden="true">MN</span>
+            <span class="review-meta"><strong>Marina Navarro Magnin</strong>hace 4 meses</span></footer>
+        </article>
+      </div>
+      <p class="review-cta-bajo reveal">
+        <a href="https://search.google.com/local/writereview?placeid=0x9662d91939fdf283:0xcc925a0bb2d70a48" target="_blank" rel="noopener">
+          ¿Nos visitaste? Déjanos tu reseña en Google
+        </a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISÍTANOS ================= -->
+<section class="tab-panel" data-tab-panel="visitanos">
+  <div class="section">
+    <div class="wrap">
+      <div class="eyebrow-row reveal">
+        <span class="eyebrow">Visítanos</span>
+        <h2 class="section-title">Te esperamos en Los Canelos</h2>
+      </div>
+      <div class="visitanos-grid">
+        <div class="visitanos-info reveal">
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s-7-6-7-11a7 7 0 1 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+            <div><strong>Los Canelos 759</strong><span>San Bernardo, Región Metropolitana</span></div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+            <div>
+              <strong>Horario</strong>
+              <span>Cierra a las 20:30</span>
+              <span class="nota-fuente">La hora de apertura no está publicada en Google — conviene confirmarla con el local.</span>
+            </div>
+          </div>
+          <div class="dato">
+            <span class="dato-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg></span>
+            <div><strong>+56 2 2841 2177</strong><span>Teléfono publicado en su ficha de Google</span></div>
+          </div>
+          <div class="visitanos-ctas">
+            <a class="btn btn-solid" href="tel:+56228412177">Llamar al local</a>
+            <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=DU+BL%C3%89+San+Bernardo&destination_place_id=0x9662d91939fdf283:0xcc925a0bb2d70a48" target="_blank" rel="noopener">Cómo llegar</a>
+            <a class="btn btn-ghost" href="https://waze.com/ul?ll=-33.6185601,-70.6890353&navigate=yes" target="_blank" rel="noopener">Abrir en Waze</a>
+          </div>
+        </div>
+        <div class="map-frame reveal">
+          <!-- Embed REAL: place id y coordenadas de su ficha de Google (10-09-2026) -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.0!2d-70.6890353!3d-33.6185601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662d91939fdf283%3A0xcc925a0bb2d70a48!2sDU%20BL%C3%89!5e0!3m2!1ses-419!2scl!4v1789005600000!5m2!1ses-419!2scl"
+            loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"
+            title="Mapa de DU BLÉ en Los Canelos 759"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <span class="brand-name footer-brand">Du Blé</span>
+      <p>Los Canelos 759 · San Bernardo, Región Metropolitana</p>
+      <p class="status-line"><span class="status-dot" id="statusDot2"></span> <span id="statusText2">—</span></p>
+    </div>
+    <div class="footer-links">
+      <a href="https://instagram.com/dublepasteleriachile" target="_blank" rel="noopener">Instagram</a>
+      <a href="tel:+56228412177">Teléfono</a>
+    </div>
+  </div>
+</footer>
+
+<div class="float-widget">
+  <a href="https://instagram.com/dublepasteleriachile" target="_blank" rel="noopener" class="float-btn float-ig" aria-label="Instagram de DU BLÉ">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+  </a>
+  <a href="tel:+56228412177" class="float-btn float-tel" aria-label="Llamar a DU BLÉ">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z"/></svg>
+  </a>
+</div>
+<script src="vida.js"></script>
+<script src="carta-fotos.js"></script>
+<script src="script.js"></script>
+<script src="carrito.js"></script>
+</body>
+</html>
