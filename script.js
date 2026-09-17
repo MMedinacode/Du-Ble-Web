@@ -3,7 +3,7 @@
    ============================================================
    ⚠️ SIN PRECIOS. No publican carta con precios en ningún canal. Los
    productos listados salen de los "destacados del menú" de su ficha de
-   Google y de sus reseñas reales. Ninguno inventado. Pedirle la carta al
+   Google y de nuestras reseñas. Ninguno inventado. Pedirle la carta al
    local para cargar los precios.
    ============================================================ */
 
@@ -13,20 +13,20 @@ const MENU = {
     "items": [
       {
         "n": "Cheesecake de frutos rojos",
-        "d": "Destacado del menú en su propia ficha de Google"
+        "d": "Uno de los destacados del menú"
       },
       {
         "n": "Pastel panqueque de manjar",
-        "d": "\"Exquisito\", según una reseña real del local"
+        "d": "\"Exquisito\", según una reseña del local"
       },
       {
         "n": "Tortas",
-        "d": "\"Tienen muy ricos pasteles y tortas\" — reseña real",
+        "d": "\"Tienen muy ricos pasteles y tortas\" — reseña",
         "img": "vitrina.jpg"
       },
       {
         "n": "Variedad de pasteles",
-        "d": "\"Hay harta variedad de pasteles\" — reseña real"
+        "d": "\"Hay harta variedad de pasteles\" — reseña"
       }
     ]
   },
@@ -44,11 +44,11 @@ const MENU = {
     "items": [
       {
         "n": "Café",
-        "d": "\"El café también es muy rico\" — cita textual de una reseña real"
+        "d": "\"El café también es muy rico\" — cita textual de una reseña"
       },
       {
         "n": "Jugos",
-        "d": "Su ficha de Google tiene una categoría de fotos dedicada a jugos"
+        "d": "Los jugos tienen su propia sección"
       }
     ]
   }
